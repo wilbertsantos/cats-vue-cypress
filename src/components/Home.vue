@@ -44,10 +44,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, computed, onMounted } from "vue";
+import { ref, computed, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { Breed, Cat } from "../types";
-import axios from "axios";
 import { fetchBreeds, fetchCats } from "../services/api";
 
 const limit = ref(10);

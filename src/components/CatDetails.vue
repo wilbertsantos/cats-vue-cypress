@@ -27,11 +27,9 @@
 import { ref, watch, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import { Breed, Cat } from "../types";
-import { fetchCatById, fetchCats } from "../services/api";
-import { BCard, BButton } from "bootstrap-vue";
+import { fetchCatById } from "../services/api";
 
 const cat = ref<Cat | null>(null);
-const currentPage = ref(1);
 
 const route = useRoute();
 const router = useRouter();
