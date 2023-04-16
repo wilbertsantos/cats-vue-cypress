@@ -20,5 +20,12 @@ npm run build
 npm run lint
 ```
 
+
+### Cypress Test
+```
+npx cypress run
+```
+
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
